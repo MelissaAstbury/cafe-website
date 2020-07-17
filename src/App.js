@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.scss";
 
+import Header from "./components/Header/Header";
+
 const App = () => {
   return (
-    <div className="App">
-      <h1>Aqui Mismo</h1>
-    </div>
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
   );
 };
 
