@@ -1,12 +1,14 @@
 import React from "react";
 
 import "./Home.scss";
+import LocationMap from "../../components/Map/Map";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <h1>This is the home page</h1>
-    </div>
+      <LocationMap />
+    </>
   );
 };
 
