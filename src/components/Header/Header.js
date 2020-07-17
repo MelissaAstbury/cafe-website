@@ -36,7 +36,7 @@ const Header = () => {
             <NavItem link="/" exact>
               Home
             </NavItem>
-            <NavItem link="/experience" exact>
+            <NavItem link="/about" exact>
               About
             </NavItem>
           </ul>
