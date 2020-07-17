@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className="wrapper">
         <nav>
-          <h3>Aqui Misimo</h3>
+          <h3>Aqui Mismo</h3>
           <div
             className="hamburger"
             onClick={() => {
