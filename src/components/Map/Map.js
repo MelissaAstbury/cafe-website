@@ -13,10 +13,6 @@ const myIcon = L.icon({
 
 const LocationMap = () => {
   const [location, setLocation] = useState([36.162161, -5.342754]);
-  //   googleSat = L.tileLayer("http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}", {
-  //     maxZoom: 20,
-  //     subdomains: ["mt0", "mt1", "mt2", "mt3"],
-  //   });
   return (
     <Map
       className="map"
@@ -24,7 +20,6 @@ const LocationMap = () => {
       zoom={15}
       style={{ height: "240px", width: "240px" }}
     >
-      {/* <TileLayer url="http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}" /> */}
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

@@ -55,7 +55,7 @@ fieldset {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Amatic SC", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -71,15 +71,15 @@ $mediaTabletWidth: 960px;
 $mediaMinWidth: 480px;
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1.7;
 
   @media screen and (min-width: $mediaMinWidth) and (max-width: $mediaTabletWidth) {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   @media screen and (min-width: $mediaTabletWidth) {
-    font-size: 41px;
+    font-size: 48px;
   }
 }
 
@@ -119,7 +119,7 @@ h4 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.7;
 }
 

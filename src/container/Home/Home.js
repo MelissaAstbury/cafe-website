@@ -1,14 +1,23 @@
 import React from "react";
 
 import "./Home.scss";
+import mainCoffeeImage from "../../assets/coffee-image.jpg";
+
 import LocationMap from "../../components/Map/Map";
 
 const Home = () => {
   return (
-    <>
-      <h1>This is the home page</h1>
+    <div>
+      <div className="main-image-container">
+        <img
+          src={mainCoffeeImage}
+          alt="Multiple Coffee Cups"
+          className="main-image"
+        />
+        <h1 className="sub-title">Espresso yourself!</h1>
+      </div>
       <LocationMap />
-    </>
+    </div>
   );
 };
 
