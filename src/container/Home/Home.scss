@@ -1,3 +1,7 @@
+.description-title {
+  text-decoration: underline;
+}
+
 .main-image-container {
   width: 100%;
   position: relative;
@@ -18,5 +22,36 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: white 0px 0px 10px;
+  }
+}
+
+.description-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 12px 12px;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 8px -2px rgba(201, 185, 201, 0.79);
+  -moz-box-shadow: 1px 1px 8px -2px rgba(201, 185, 201, 0.79);
+  box-shadow: 1px 1px 8px -2px rgba(201, 185, 201, 0.79);
+
+  .map {
+    margin: 0 auto;
+  }
+
+  .description {
+    width: 60%;
+  }
+
+  .coffee-image {
+    padding: 0 60px;
+    width: 400px;
+    height: 240px;
+  }
+
+  .food-image {
+    padding: 0 60px;
+    width: 400px;
+    height: 240px;
   }
 }
