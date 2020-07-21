@@ -27,4 +27,35 @@
     margin-top: 80px;
     font-size: 41px;
   }
+
+  .about-message-mobile {
+    font-size: 26px;
+    display: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+    max-width: 100%;
+
+    .hours-container {
+      margin-top: 16px;
+    }
+
+    .about-container {
+      max-width: 90% !important;
+      margin: 0 auto;
+    }
+    .about-and-hours {
+      flex-direction: column;
+    }
+
+    .about-message {
+      display: none;
+    }
+
+    .about-message-mobile {
+      display: inline-block;
+      margin-top: 16px;
+      margin-bottom: 24px;
+    }
+  }
 }

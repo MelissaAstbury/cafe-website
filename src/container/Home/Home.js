@@ -20,9 +20,9 @@ const Home = () => {
       </div>
       <div className="description-container">
         <div className="description">
-          <h3 className="description-title">
+          <h2 className="description-title">
             Start your day off great with a cup of coffee!
-          </h3>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             lacinia, lorem eu dignissim cursus, massa lacus tincidunt dui, a
@@ -38,10 +38,10 @@ const Home = () => {
         <img
           src={coffeeBeanImage}
           alt="Coffee cup with spilled coffee beans"
-          className="coffee-image"
+          className="description-image order-last"
         />
-        <div className="description">
-          <h3 className="description-title">The best coffee around</h3>
+        <div className="description order-first">
+          <h2 className="description-title">The best coffee around</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             lacinia, lorem eu dignissim cursus, massa lacus tincidunt dui, a
@@ -54,7 +54,7 @@ const Home = () => {
       </div>
       <div className="description-container">
         <div className="description">
-          <h3 className="description-title">Take a look at our menu!</h3>
+          <h2 className="description-title">Take a look at our menu!</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             lacinia, lorem eu dignissim cursus, massa lacus tincidunt dui, a
@@ -67,7 +67,7 @@ const Home = () => {
         <img
           src={foodImage}
           alt="Sliced Hamon Serrano on black slate"
-          className="coffee-image"
+          className="description-image"
         />
       </div>
     </div>

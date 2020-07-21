@@ -18,12 +18,18 @@ const LocationMap = () => {
       className="map"
       center={location}
       zoom={15}
-      style={{ height: "294px", width: "294px" }}
+      maxZoom={17}
+      minZoom={14}
+      style={{ height: "294px", width: "294px", zIndex: "1" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
+      {/* <TileLayer
+        url="http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png"
+        subdomains={["otile1", "otile2", "otile3", "otile4"]}
+      /> */}
       <Marker position={[36.162161, -5.342754]} icon={myIcon}>
         <Popup>
           Aqui Mismo

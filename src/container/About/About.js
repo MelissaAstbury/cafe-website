@@ -28,6 +28,7 @@ const About = () => {
           <p>FRI: 08:30 - 18:00</p>
           <p>SAT: 08:30 - 18:00</p>
         </div>
+        <p className="about-message-mobile">We hope to see you soon!</p>
       </div>
     </div>
   );
