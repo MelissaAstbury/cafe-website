@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
@@ -12,11 +12,10 @@ const myIcon = L.icon({
 });
 
 const LocationMap = () => {
-  const [location, setLocation] = useState([36.162161, -5.342754]);
   return (
     <Map
       className="map"
-      center={location}
+      center={[36.162161, -5.342754]}
       zoom={15}
       maxZoom={17}
       minZoom={14}

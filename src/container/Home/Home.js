@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Home.scss";
 import mainCoffeeImage from "../../assets/coffee-image.jpg";
-import coffeeBeanImage from "../../assets/coffee-beans.jpeg";
 import foodImage from "../../assets/food-image.jpeg";
 
 import LocationMap from "../../components/Map/Map";
@@ -36,8 +35,8 @@ const Home = () => {
       </div>
       <div className="description-container">
         <img
-          src={coffeeBeanImage}
-          alt="Coffee cup with spilled coffee beans"
+          src={foodImage}
+          alt="Sliced Hamon Serrano on black slate"
           className="description-image order-last"
         />
         <div className="description order-first">
