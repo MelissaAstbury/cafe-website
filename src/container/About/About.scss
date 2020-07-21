@@ -1,0 +1,30 @@
+.container {
+  max-width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  .about-and-hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+    }
+
+    .hours-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+    }
+  }
+
+  .about-message {
+    margin-top: 80px;
+    font-size: 41px;
+  }
+}

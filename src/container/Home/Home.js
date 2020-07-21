@@ -67,7 +67,7 @@ const Home = () => {
         <img
           src={foodImage}
           alt="Sliced Hamon Serrano on black slate"
-          className="food-image"
+          className="coffee-image"
         />
       </div>
     </div>

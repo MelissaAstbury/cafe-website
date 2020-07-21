@@ -18,7 +18,7 @@ const LocationMap = () => {
       className="map"
       center={location}
       zoom={15}
-      style={{ height: "240px", width: "240px" }}
+      style={{ height: "294px", width: "294px" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
